@@ -1,0 +1,71 @@
+#adam{
+    display: flex;
+    
+    height:60vh;
+    background-color: rgb(140, 190, 210);
+    .sun{
+        border-radius:50%;
+        background-color: yellow;
+        height: 70px;
+        width: 70px;
+      padding-left:50px;
+       margin-top: 50px;
+       box-shadow: 0px 0px 70px yellow;
+    
+
+    }
+    .adam1{
+      margin-left:30%;  
+      width: 5%;
+      opacity: 1;
+      padding-top: 25%;
+      &.activ{
+        opacity: 0;
+      }
+     
+      
+     
+    }
+    .tree{
+        padding-top: 23%;
+    }
+    .ambulance {
+       width: 5%;
+        margin-left: 45%;
+        padding-top: 25%;
+       
+        &.active {
+          
+            margin-left:-10%;
+            transition: 15s;
+        }
+        &.hereket{
+            margin-left: -50%;
+
+        }
+    }
+    
+   
+}
+#road {
+    height: 40vh;
+    background-color: rgb(88, 87, 87);
+    
+    .white-box {
+        background-color: white;
+        height: 30px;
+        width:100px;
+        margin-top: 8%;
+        margin-left: 15%;
+    }
+    .car1{
+        &.suret{
+            transition:25s;
+            padding-left: 90%;
+        }
+
+    }
+    
+    
+
+}
